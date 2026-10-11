@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "pulse_2_0",
+  "version": "${version}",
+  "name": "Pulse 2.0 Visuals",
+  "description": "Client-side PvP visual effects for Minecraft 1.21.11 on Fabric.",
+  "authors": ["shadyf315"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {"client": ["dev.pulse.twopointzero.PulseClient"]},
+  "depends": {
+    "fabricloader": ">=0.18.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

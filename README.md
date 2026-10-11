@@ -6,7 +6,8 @@ Client-side visual mod for Minecraft Java 1.21.11 and Fabric.
 
 - Target HUD with a health bar while aiming at a living entity.
 - Hit particles on entity attacks, with a distinct critical-hit burst.
-- Settings screen opened with **Right Shift**; options are saved in `.minecraft/config/pulse-2-0.json`.
+- Dark Pulse-inspired settings panel with Visuals, HUD, and Utilities tabs, search field, two-column cards, purple switches, and hotkey card. Open with **Right Shift**.
+- Available options are saved in `.minecraft/config/pulse-2-0.json`. Entries marked unavailable are visual placeholders for modules that are not implemented yet.
 
 ## Install
 

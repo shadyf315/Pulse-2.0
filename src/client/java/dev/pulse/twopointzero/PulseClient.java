@@ -48,12 +48,12 @@ public final class PulseClient implements ClientModInitializer {
             float health = Math.max(0.0f, target.getHealth());
             float maxHealth = Math.max(1.0f, target.getMaxHealth());
             int barWidth = Math.round((width - 18) * Math.min(1.0f, health / maxHealth));
-            graphics.fill(x, y, x + width, y + height, 0xD90D1018);
-            graphics.fill(x, y, x + 2, y + height, 0xFFEB3158);
+            graphics.fill(x, y, x + width, y + height, 0xED0D0C13);
+            graphics.fill(x, y, x + 3, y + height, 0xFF8758F5);
             graphics.drawString(client.font, target.getName(), x + 10, y + 8, 0xFFF4F5FA, false);
             graphics.drawString(client.font, String.format("%.1f / %.0f HP", health, maxHealth), x + 10, y + 22, 0xFFBEC4D1, false);
-            graphics.fill(x + 10, y + 36, x + width - 8, y + 40, 0xFF292D39);
-            if (barWidth > 0) graphics.fill(x + 10, y + 36, x + 10 + barWidth, y + 40, 0xFFEB3158);
+            graphics.fill(x + 10, y + 36, x + width - 8, y + 40, 0xFF292633);
+            if (barWidth > 0) graphics.fill(x + 10, y + 36, x + 10 + barWidth, y + 40, 0xFF8758F5);
         });
     }
 
